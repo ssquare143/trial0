@@ -1,0 +1,85 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+<title>3_Assignment</title>
+<style>
+body{
+background-image:url("new2.jpg");
+background-repeat:repeat;
+background-attachment:fixed;
+background-position: right top;
+}
+#foto1:hover,#foto2:hover{
+opacity:0.8;
+}
+#a{
+background-color:beige;
+border: none;
+height:1250px;
+width:500px;
+box-shadow: 3px 3px 10px 10px red;
+}
+#user_type:hover,#u_name:hover,#pwd:hover{
+outline:none;
+border-radius: 100px;
+box-shadow: 1px 1px 2px 2px rgb(189,19,91);
+}
+
+#btn2
+{
+outline:none;
+border-radius: 80px;
+box-shadow: 1px 1px 2px 2px red;
+background-color:lightgreen;
+margin-left:1em;
+}
+#link{
+text-decoration:none;
+}
+#pre{
+margin-left:-50px;
+}
+#div{
+border:2px solid red;
+background-color:white;
+height:20px;
+width:80px;
+color:black;
+padding-top:2px;
+padding-bottom:2px;
+padding-left:5px;
+padding-right:5px;
+margin-left:18px;
+margin-top:40px;
+}
+</style>
+</head>
+<body>
+<form>
+<center>
+<fieldset id="a">
+<legend id="lgnd1" ><img id="foto1" src="assignment_pic.jpg" height="100" width="300"></legend>
+<center><br><img src="detail.jpg" height="150" width="300" style="margin-left:75px;"></center><br>
+<center><pre id="pre">
+             Name: <input type="text" id="u_name" placeholder=" e.g. Mukesh" style="width:300px; height:25px;"></input><br><br>
+              Age: <input type="text" id="pwd" placeholder=" dd/mm/yyyy" style="width:300px; height:25px;"></input><br>
+<p style="margin-left:-170px;">Gender: <input type="radio" name="gender"> Male</input><br>
+	  <input type="radio" name="gender"> Female</input><br>
+	  <input type="radio" name="gender"> Others</input><br></p>
+          Address: <input type="text" id="u_name" placeholder=" e.g. XYZ colony" style="width:300px; height:25px;"></input><br><br></pre>
+<center><br><img id="foto2" src="choices.jpg" height="150" width="300" style="margin-left:75px;"></center><br><pre id="pre">		  
+Favourite subject: <input type="text" id="pwd" placeholder=" e.g. maths " style="width:300px; height:25px;"></input><br><br>
+  Favourite movie: <input type="text" id="u_name" placeholder=" e.g. Interstellar" style="width:300px; height:25px;"></input><br><br>
+ Favourite singer: <input type="text" id="pwd" placeholder=" e.g Arijit" style="width:300px; height:25px;"></input><br><br>
+<p style="margin-left:-100px;"> What do you like about this page?<input type="checkbox" style="margin-left:25px;"></input> Background<br>
+<input type="checkbox" style="margin-left:225px;"></input> Form<br>
+<input type="checkbox" style="margin-left:320px;"></input> Color Combination<br>
+</p>
+</pre></center>
+<button id="btn2" style="width:100px; height:25px;"><a id="link" href="page_nt_found.html" target="_blank" >Submit</a></button><br><br>
+<legend id="lgnd2"><div id="div">The End</div></legend>
+</fieldset>
+</center>
+</form><br><br>
+</body>
+</html>
